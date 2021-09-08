@@ -14,9 +14,9 @@ def find_max(list):
     if not list:
         print('There\'s no number in the list')
     else:
-        max_num = list[0]
+        max_num = int(list[0])
         for num in list:
-            if num > max_num:
+            if int(num) > int(max_num):
                 max_num = num
         return max_num
 
